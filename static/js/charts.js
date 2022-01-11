@@ -57,7 +57,7 @@ function buildMetadata(sample) {
 function buildCharts(sample) {
   // 2. Use d3.json to load and retrieve the samples.json file 
   d3.json("samples.json").then((data) => {
-    console.log(data);
+    // console.log(data);
     // 3. Create a variable that holds the samples array. 
     let samples = data.samples;
     // 4. Create a variable that filters the samples for the object with the desired sample number.
@@ -77,7 +77,7 @@ function buildCharts(sample) {
 
     // Get the top 10 otu_labels and sample_values in descending order
     let xticks = sample_values.slice(0,10).reverse();
-    let texts = otu_labels.slice(0s,10).reverse();
+    let texts = otu_labels.slice(0,10).reverse();
 
     // 8. Create the trace for the bar chart.
     let barData = [{

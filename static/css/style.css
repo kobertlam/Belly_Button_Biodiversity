@@ -1,0 +1,9 @@
+/* body {
+
+    color: hsla(0, 89%, 4%, 0.274);
+} */
+.jumbotron {
+    background-image: url("../images/images.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}

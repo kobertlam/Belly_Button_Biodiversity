@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -16,6 +17,13 @@
       <div class="col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>
+          This dashboard shows the demographic information and visualize the bacterial data for each volunteer.  Volunteer can select the 'Subject ID', and the corresponding data will be displayed in the dashboard.<br><br>
+        </p>
       </div>
     </div>
     <div class="row">
@@ -34,14 +42,17 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+        <div class="text-center"><h5>Bar chart showing top 10 bacterial species found in the belly button</h5></div>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <div class="text-center"><h5>Gauge chart showing the belly button washing frequency per week</h5></div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <div class="text-center"><h5>Bubble chart showing the bacterial cultures and the associated sample values</h5></div>
       </div>
     </div>
   </div>

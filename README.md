@@ -15,4 +15,4 @@ Build an interactive dashboard using Plotly.js to explore data on the biodiversi
 3. Add information about what each graph visualizes, either under or next to each graph
 
 ## Output:
-![Image 1](.\static\images\output.jpg)
+![Image 1](./static/images/output.jpg)

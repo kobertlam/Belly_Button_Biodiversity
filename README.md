@@ -13,3 +13,6 @@ Build an interactive dashboard using Plotly.js to explore data on the biodiversi
 1. Add an image to the jumbotron
 2. Add more information about the project as a paragraph on the page
 3. Add information about what each graph visualizes, either under or next to each graph
+
+## Output:
+![Image 1](.\static\images\output.jpg)
